@@ -1,4 +1,5 @@
-# yagokoro
+# structured-ai
+複数の得意分野を持つAIをオーケストレーションし回答を導き出す
 
 ## Usage
 
