@@ -31,6 +31,8 @@ def main():
     # Issueの不足情報をリストアップして確認する
     clarify_issue(issue_content=issue_content)
 
+    # 類似Issueを検索して表示
+    retrieve_similar_issue(issue_content=issue_content)
 
 
 if __name__ == "__main__":
