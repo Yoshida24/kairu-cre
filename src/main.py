@@ -1,7 +1,6 @@
 from modules.message_input.cli import message_input
 from thought.clarify_issue.clarify_issue import clarify_issue
 from thought.summarize_issue.summarize_issue import summarize_issue
-from thought.retrieve_similar_issue.retrieve_similar_issue import retrieve_similar_issue
 
 
 """
@@ -30,7 +29,6 @@ def main():
 
     # Issueの不足情報をリストアップして確認する
     clarify_issue(issue_content=issue_content)
-
 
 
 if __name__ == "__main__":
